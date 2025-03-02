@@ -169,7 +169,7 @@
         android:gravity="center"
         android:fontFamily="@font/roboto_regular"
         android:textColor="@color/black"
-        android:text="© 2025 CMC RABAT - OFPPT. Tous droits réservés"/>
+        android:text="© 2025 CMC RABAT - OFPPT"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
