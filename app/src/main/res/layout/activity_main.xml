@@ -53,6 +53,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:textSize="15sp"
+            android:gravity="center"
             android:textColor="@color/black"
             android:fontFamily="@font/roboto_semibold"
             android:text="Website Name :"  />
@@ -60,6 +61,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:gravity="center"
             android:textSize="15sp"
             android:textColor="@color/black"
             android:fontFamily="@font/roboto_regular"
@@ -74,6 +76,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:textSize="15sp"
+            android:gravity="center"
             android:textColor="@color/black"
             android:fontFamily="@font/roboto_semibold"
             android:text="URL Checked :"  />
@@ -83,6 +86,7 @@
             android:layout_weight="1"
             android:textSize="15sp"
             android:textColor="@color/black"
+            android:gravity="center"
             android:fontFamily="@font/roboto_regular"
             android:text="enote.ofppt.ma"  />
     </LinearLayout>
