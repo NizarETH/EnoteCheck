@@ -97,12 +97,14 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="vertical"
         android:layout_weight="1">
+
         <RelativeLayout
             android:id="@+id/container"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginBottom="100dp">
+            android:layout_height="0dp"
+            android:layout_weight="1" >
 
             <com.airbnb.lottie.LottieAnimationView
                 android:id="@+id/lottieButton"
@@ -158,6 +160,18 @@
             </LinearLayout>
 
         </RelativeLayout>
+        <Button
+            android:id="@+id/button_open"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:backgroundTint="@color/black"
+            android:text="Open Enote"/>
+
     </LinearLayout>
 
 

@@ -2,5 +2,5 @@
     <string name="app_name">EnoteCheck</string>
     <string name="result_ok">Enote.ofppt.ma is UP and reachable by us.</string>
     <string name="result_down">Enote.ofppt.ma is DOWN for everyone.</string>
-    <string name="result_intrernal_issue">The website is reachable, but it encountered an internal issue.</string>
+    <string name="result_internal_issue">The website is reachable, but it encountered an internal issue.</string>
 </resources>
